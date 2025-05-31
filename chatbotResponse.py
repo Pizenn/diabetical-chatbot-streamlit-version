@@ -2,8 +2,7 @@ import numpy as np
 from nltk.stem import WordNetLemmatizer
 import nltk
 
-nltk.download('punkt', download_dir='Bangkit/NLTK Path')
-nltk.data.path.append('Bangkit/NLTK Path')
+nltk.download('punkt')
 lemmatizer = WordNetLemmatizer()
 
 # Fungsi untuk membersihkan input
