@@ -1,3 +1,4 @@
 streamlit==1.45.1
 json5==0.10.0
 keras==3.9.2
+tensorflow==2.19.0
